@@ -1,0 +1,13 @@
+{
+	"name": "Piano Play",
+	"version": "1.0",
+	"description": "Piano Simulator",
+	"orientation": "landscape",
+	"launch_path": "/index.html",
+	"icons": {
+		"128": "/img/icon-128.png"
+	},
+	"developer": {
+	 "name": "Gabriel Kozlowaski & Natasha Rocha"
+	}
+}
