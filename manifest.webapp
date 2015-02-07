@@ -1,7 +1,7 @@
 {
 	"name": "Piano Play",
 	"version": "1.0",
-	"description": "Piano Simulator",
+	"description": "Simple Piano Simulator",
 	"orientation": "landscape",
 	"launch_path": "/index.html",
 	"icons": {
