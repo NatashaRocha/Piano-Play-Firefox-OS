@@ -1,9 +1,12 @@
 1.3 - Layout bugado
-1.4 - Som bugando
-2.0 - Som bugando
-2.1 - Css bugado - anima��o tecla
-2.2 - Css bugado - anima��o tecla
+1.4 - perfeito
+2.0 - barra de rolagem
+2.1 - barra de rolagem
+2.2 - barra de rolagem
 
 
 N�o funciona com navegadores
 Tela scrollando
+
+
+*Verificar o orientation*
