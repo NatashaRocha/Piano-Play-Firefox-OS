@@ -1,9 +1,9 @@
 1.3 - Layout bugado
 1.4 - Som bugando
 2.0 - Som bugando
-2.1 - Css bugado - animação tecla
-2.2 - Css bugado - animação tecla
+2.1 - Css bugado - animaï¿½ï¿½o tecla
+2.2 - Css bugado - animaï¿½ï¿½o tecla
 
 
-Não funciona com navegadores
+Nï¿½o funciona com navegadores
 Tela scrollando
