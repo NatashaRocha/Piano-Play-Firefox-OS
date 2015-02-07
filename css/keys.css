@@ -5,12 +5,12 @@
   background-color: #a1948b;
 }
 
-html, body {
-  height: 100vh;
+html, body, section, ul {
+  height: 100%;
 }
 
 header {
-	height: 75px;
+	height: 25%;
 	background: url("/img/kb.jpg") no-repeat;
 	background-size: 100% auto;
 	background-position: center;
