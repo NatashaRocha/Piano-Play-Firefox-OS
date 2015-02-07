@@ -22,36 +22,16 @@ li {
 .white {
   height:220px;
   background:#fff;
-  background:-moz-linear-gradient(-30deg,#f5f5f5,#fff);
+  background: linear-gradient(-30deg,#f5f5f5,#fff);
   border:1px solid #ccc;
   box-shadow:inset 0 20px 20px -20px rgba(0,0,0,0.8), inset 0px 1px 0px #fff,inset 0 -1px 0px #fff,inset 1px 0px 0px #fff,inset -1px 0px 0px #fff,0 4px 3px rgba(0,0,0,0.7);
   border-radius:0 0 3px 3px;
 }
 
-.white:active {
+.whitepressed {
   box-shadow:inset 0 20px 20px -20px rgba(0,0,0,0.8),inset 0 2px 2px -20px rgba(0,0,0,0.8), 0 2px 2px rgba(0,0,0,0.4);
   position:relative;
   height:216px;
-}
-
-.white:active:before {
-  content:"";
-  border-width:216px 5px 0px;
-  border-style:solid;
-  border-color:transparent transparent transparent rgba(0,0,0,0.1);
-  position:absolute;
-  left:0px;
-  top:0px;
-}
-
-.white:active:after {
-  content:"";
-  border-width:216px 5px 0px;
-  border-style:solid;
-  border-color:transparent rgba(0,0,0,0.1) transparent transparent;
-  position:absolute;
-  right:0px;
-  top:0px;
 }
 
 /* Black */
@@ -61,7 +41,7 @@ span {
   left:-12px;
   width:20px;
   height:120px;
-  background:-moz-linear-gradient(-20deg,#333,#000,#333);
+  background:linear-gradient(-20deg,#333,#000,#333);
   z-index:10;
   border-width:1px 2px 7px;
   border-style:solid;
@@ -70,8 +50,9 @@ span {
   border-radius:0 0 2px 2px;
 }
 
-span:active {
+.blackpressed {
   border-bottom-width:2px;
+  margin-top: 1px;
   height:123px;
   box-shadow:inset 0 20px 20px -20px rgba(0,0,0,0.8), inset 0px -1px 1px rgba(255,255,255,0.4),0 1px 0px rgba(0,0,0,0.8),0 2px 2px rgba(0,0,0,0.4),0 -1px 0px #000;
 }
