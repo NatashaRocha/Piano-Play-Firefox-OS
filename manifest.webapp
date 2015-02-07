@@ -1,6 +1,6 @@
-﻿{
+{
 	"name": "Piano Play",
-	"version": "0.7",
+	"version": "1.0",
 	"description": "Piano Simulator",
 	"orientation": "landscape",
 	"launch_path": "/index.html",

@@ -5,10 +5,6 @@
   background-color: #a1948b;
 }
 
-html, body {
-  height: 100vh;
-}
-
 header {
 	height: 75px;
 	background: url("/img/kb.jpg") no-repeat;
