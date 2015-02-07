@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    screen.mozLockOrientation("landscape-primary");
     var c1 = document.createElement('audio');
     c1.setAttribute('src', '/ogg/c1/c1.ogg');    
         
