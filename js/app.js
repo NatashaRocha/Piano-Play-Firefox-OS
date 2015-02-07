@@ -11,7 +11,10 @@ $(document).ready(function() {
         $(this).addClass("whitepressed");
         c1.load();
         c1.play();    
-    }, true); 
+    }, true);
+    C1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);     
     
     var db1 = document.createElement('audio');
     db1.setAttribute('src', '/ogg/c1/db1.ogg');    
@@ -26,7 +29,9 @@ $(document).ready(function() {
         db1.load();
         db1.play();    
     }, true); 
-
+    Db1.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
 
     var d1 = document.createElement('audio');
     d1.setAttribute('src', '/ogg/c1/d1.ogg');    
@@ -41,7 +46,9 @@ $(document).ready(function() {
         d1.load();
         d1.play();    
     }, true);
-    
+    D1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var eb1 = document.createElement('audio');
     eb1.setAttribute('src', '/ogg/c1/eb1.ogg');    
@@ -56,7 +63,9 @@ $(document).ready(function() {
         eb1.load();
         eb1.play();    
     }, true);
-    
+    Eb1.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true); 
     
     var e1 = document.createElement('audio');
     e1.setAttribute('src', '/ogg/c1/e1.ogg');    
@@ -71,7 +80,9 @@ $(document).ready(function() {
         e1.load();
         e1.play();    
     }, true);
-    
+    E1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var f1 = document.createElement('audio');
     f1.setAttribute('src', '/ogg/c1/f1.ogg');    
@@ -86,7 +97,9 @@ $(document).ready(function() {
         f1.load();
         f1.play();    
     }, true);
-    
+    F1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var gb1 = document.createElement('audio');
     gb1.setAttribute('src', '/ogg/c1/gb1.ogg');    
@@ -101,7 +114,9 @@ $(document).ready(function() {
         gb1.load();
         gb1.play();    
     }, true);
-
+    Gb1.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
 
     var g1 = document.createElement('audio');
     g1.setAttribute('src', '/ogg/c1/g1.ogg');    
@@ -116,7 +131,9 @@ $(document).ready(function() {
         g1.load();
         g1.play();    
     }, true);
-    
+    G1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
 
     var ab1 = document.createElement('audio');
     ab1.setAttribute('src', '/ogg/c1/ab1.ogg');    
@@ -131,7 +148,9 @@ $(document).ready(function() {
         ab1.load();
         ab1.play();    
     }, true);
-    
+    Ab1.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);    
     
     var a1 = document.createElement('audio');
     a1.setAttribute('src', '/ogg/c1/a1.ogg');    
@@ -146,7 +165,9 @@ $(document).ready(function() {
         a1.load();
         a1.play();    
     }, true);
-    
+    A1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var bb1 = document.createElement('audio');
     bb1.setAttribute('src', '/ogg/c1/bb1.ogg');    
@@ -160,6 +181,9 @@ $(document).ready(function() {
         $('this').addClass("blackpressed");
         bb1.load();
         bb1.play();    
+    }, true);
+    Bb1.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
     }, true);
     
     var b1 = document.createElement('audio');
@@ -175,7 +199,10 @@ $(document).ready(function() {
         b1.load();
         b1.play();    
     }, true);
-
+    B1.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
+    
     var c2 = document.createElement('audio');
     c2.setAttribute('src', '/ogg/c2/c2.ogg');    
         
@@ -189,7 +216,11 @@ $(document).ready(function() {
         c2.load();
         c2.play();    
     }, true); 
-
+    C2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
+    
+    
     var db2 = document.createElement('audio');
     db2.setAttribute('src', '/ogg/c2/db2.ogg');    
         
@@ -203,7 +234,9 @@ $(document).ready(function() {
         db2.load();
         db2.play();    
     }, true); 
-
+    Db2.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
 
     var d2 = document.createElement('audio');
     d2.setAttribute('src', '/ogg/c2/d2.ogg');    
@@ -218,7 +251,9 @@ $(document).ready(function() {
         d2.load();
         d2.play();    
     }, true);
-    
+    D2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var eb2 = document.createElement('audio');
     eb2.setAttribute('src', '/ogg/c2/eb2.ogg');    
@@ -233,7 +268,9 @@ $(document).ready(function() {
         eb2.load();
         eb2.play();    
     }, true);
-    
+    Eb2.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
     
     var e2 = document.createElement('audio');
     e2.setAttribute('src', '/ogg/c2/e2.ogg');    
@@ -248,7 +285,9 @@ $(document).ready(function() {
         e2.load();
         e2.play();    
     }, true);
-    
+    E2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var f2 = document.createElement('audio');
     f2.setAttribute('src', '/ogg/c2/f2.ogg');    
@@ -263,7 +302,9 @@ $(document).ready(function() {
         f2.load();
         f2.play();    
     }, true);
-    
+    F2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var gb2 = document.createElement('audio');
     gb2.setAttribute('src', '/ogg/c2/gb2.ogg');    
@@ -278,7 +319,9 @@ $(document).ready(function() {
         gb2.load();
         gb2.play();    
     }, true);
-
+    Gb2.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
 
     var g2 = document.createElement('audio');
     g2.setAttribute('src', '/ogg/c2/g2.ogg');    
@@ -293,7 +336,9 @@ $(document).ready(function() {
         g2.load();
         g2.play();    
     }, true);
-    
+    G2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
 
     var ab2 = document.createElement('audio');
     ab2.setAttribute('src', '/ogg/c2/ab2.ogg');    
@@ -308,7 +353,9 @@ $(document).ready(function() {
         ab2.load();
         ab2.play();    
     }, true);
-    
+    Ab2.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
     
     var a2 = document.createElement('audio');
     a2.setAttribute('src', '/ogg/c2/a2.ogg');    
@@ -323,7 +370,9 @@ $(document).ready(function() {
         a2.load();
         a2.play();    
     }, true);
-    
+    A2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);
     
     var bb2 = document.createElement('audio');
     bb2.setAttribute('src', '/ogg/c2/bb2.ogg');    
@@ -338,6 +387,11 @@ $(document).ready(function() {
         bb2.load();
         bb2.play();    
     }, true);
+    Bb2.addEventListener("touchend",function(){
+        $(this).removeClass("blackpressed");
+    }, true);
+    
+    
     
     var b2 = document.createElement('audio');
     b2.setAttribute('src', '/ogg/c2/b2.ogg');    
@@ -352,6 +406,10 @@ $(document).ready(function() {
         b2.load();
         b2.play();    
     }, true);
+    B2.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);    
+    
     
     var c3 = document.createElement('audio');
     c3.setAttribute('src', '/ogg/c2/c3.ogg');    
@@ -365,6 +423,10 @@ $(document).ready(function() {
         $(this).addClass("whitepressed");
         c3.load();
         c3.play();    
-    }, true); 
+    }, true);
+    C3.addEventListener("touchend",function(){
+        $(this).removeClass("whitepressed");
+    }, true);    
+    
 
 });
