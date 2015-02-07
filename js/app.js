@@ -25,7 +25,7 @@ $(document).ready(function() {
     
     var Db1 = document.getElementById('Db1');
     Db1.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         db1.load();
         db1.play();    
     }, true); 
@@ -59,7 +59,7 @@ $(document).ready(function() {
     
     var Eb1 = document.getElementById('Eb1');
     Eb1.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         eb1.load();
         eb1.play();    
     }, true);
@@ -110,7 +110,7 @@ $(document).ready(function() {
     
     var Gb1 = document.getElementById('Gb1');
     Gb1.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         gb1.load();
         gb1.play();    
     }, true);
@@ -144,7 +144,7 @@ $(document).ready(function() {
     
     var Ab1 = document.getElementById('Ab1');
     Ab1.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         ab1.load();
         ab1.play();    
     }, true);
@@ -178,7 +178,7 @@ $(document).ready(function() {
     
     var Bb1 = document.getElementById('Bb1');
     Bb1.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         bb1.load();
         bb1.play();    
     }, true);
@@ -230,7 +230,7 @@ $(document).ready(function() {
     
     var Db2 = document.getElementById('Db2');
     Db2.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         db2.load();
         db2.play();    
     }, true); 
@@ -264,7 +264,7 @@ $(document).ready(function() {
     
     var Eb2 = document.getElementById('Eb2');
     Eb2.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         eb2.load();
         eb2.play();    
     }, true);
@@ -315,7 +315,7 @@ $(document).ready(function() {
     
     var Gb2 = document.getElementById('Gb2');
     Gb2.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         gb2.load();
         gb2.play();    
     }, true);
@@ -349,7 +349,7 @@ $(document).ready(function() {
     
     var Ab2 = document.getElementById('Ab2');
     Ab2.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         ab2.load();
         ab2.play();    
     }, true);
@@ -383,7 +383,7 @@ $(document).ready(function() {
     
     var Bb2 = document.getElementById('Bb2');
     Bb2.addEventListener("touchstart",function(){
-        $('this').addClass("blackpressed");
+        $(this).addClass("blackpressed");
         bb2.load();
         bb2.play();    
     }, true);
