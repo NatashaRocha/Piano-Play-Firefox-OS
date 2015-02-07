@@ -8,6 +8,7 @@ $(document).ready(function() {
     
     var C1 = document.getElementById('C1');
     C1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         c1.load();
         c1.play();    
     }, true); 
@@ -21,6 +22,7 @@ $(document).ready(function() {
     
     var Db1 = document.getElementById('Db1');
     Db1.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         db1.load();
         db1.play();    
     }, true); 
@@ -35,6 +37,7 @@ $(document).ready(function() {
     
     var D1 = document.getElementById('D1');
     D1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         d1.load();
         d1.play();    
     }, true);
@@ -49,6 +52,7 @@ $(document).ready(function() {
     
     var Eb1 = document.getElementById('Eb1');
     Eb1.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         eb1.load();
         eb1.play();    
     }, true);
@@ -63,6 +67,7 @@ $(document).ready(function() {
     
     var E1 = document.getElementById('E1');
     E1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");        
         e1.load();
         e1.play();    
     }, true);
@@ -77,6 +82,7 @@ $(document).ready(function() {
     
     var F1 = document.getElementById('F1');
     F1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");        
         f1.load();
         f1.play();    
     }, true);
@@ -91,6 +97,7 @@ $(document).ready(function() {
     
     var Gb1 = document.getElementById('Gb1');
     Gb1.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         gb1.load();
         gb1.play();    
     }, true);
@@ -105,6 +112,7 @@ $(document).ready(function() {
     
     var G1 = document.getElementById('G1');
     G1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         g1.load();
         g1.play();    
     }, true);
@@ -119,6 +127,7 @@ $(document).ready(function() {
     
     var Ab1 = document.getElementById('Ab1');
     Ab1.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         ab1.load();
         ab1.play();    
     }, true);
@@ -133,6 +142,7 @@ $(document).ready(function() {
     
     var A1 = document.getElementById('A1');
     A1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         a1.load();
         a1.play();    
     }, true);
@@ -147,6 +157,7 @@ $(document).ready(function() {
     
     var Bb1 = document.getElementById('Bb1');
     Bb1.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         bb1.load();
         bb1.play();    
     }, true);
@@ -160,6 +171,7 @@ $(document).ready(function() {
     
     var B1 = document.getElementById('B1');
     B1.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         b1.load();
         b1.play();    
     }, true);
@@ -173,6 +185,7 @@ $(document).ready(function() {
     
     var C2 = document.getElementById('C2');
     C2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         c2.load();
         c2.play();    
     }, true); 
@@ -186,6 +199,7 @@ $(document).ready(function() {
     
     var Db2 = document.getElementById('Db2');
     Db2.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         db2.load();
         db2.play();    
     }, true); 
@@ -200,6 +214,7 @@ $(document).ready(function() {
     
     var D2 = document.getElementById('D2');
     D2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         d2.load();
         d2.play();    
     }, true);
@@ -214,6 +229,7 @@ $(document).ready(function() {
     
     var Eb2 = document.getElementById('Eb2');
     Eb2.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         eb2.load();
         eb2.play();    
     }, true);
@@ -228,6 +244,7 @@ $(document).ready(function() {
     
     var E2 = document.getElementById('E2');
     E2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         e2.load();
         e2.play();    
     }, true);
@@ -242,6 +259,7 @@ $(document).ready(function() {
     
     var F2 = document.getElementById('F2');
     F2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         f2.load();
         f2.play();    
     }, true);
@@ -256,6 +274,7 @@ $(document).ready(function() {
     
     var Gb2 = document.getElementById('Gb2');
     Gb2.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         gb2.load();
         gb2.play();    
     }, true);
@@ -270,6 +289,7 @@ $(document).ready(function() {
     
     var G2 = document.getElementById('G2');
     G2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         g2.load();
         g2.play();    
     }, true);
@@ -284,6 +304,7 @@ $(document).ready(function() {
     
     var Ab2 = document.getElementById('Ab2');
     Ab2.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         ab2.load();
         ab2.play();    
     }, true);
@@ -298,6 +319,7 @@ $(document).ready(function() {
     
     var A2 = document.getElementById('A2');
     A2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         a2.load();
         a2.play();    
     }, true);
@@ -312,6 +334,7 @@ $(document).ready(function() {
     
     var Bb2 = document.getElementById('Bb2');
     Bb2.addEventListener("touchstart",function(){
+        $('this').addClass("blackpressed");
         bb2.load();
         bb2.play();    
     }, true);
@@ -325,6 +348,7 @@ $(document).ready(function() {
     
     var B2 = document.getElementById('B2');
     B2.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         b2.load();
         b2.play();    
     }, true);
@@ -338,6 +362,7 @@ $(document).ready(function() {
     
     var C3 = document.getElementById('C3');
     C3.addEventListener("touchstart",function(){
+        $(this).addClass("whitepressed");
         c3.load();
         c3.play();    
     }, true); 
