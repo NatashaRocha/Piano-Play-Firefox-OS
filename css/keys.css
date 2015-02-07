@@ -18,7 +18,7 @@ li {
   position:relative;
 }
 
-/* White */
+/* white keys */
 .white {
   height:220px;
   background:#fff;
@@ -34,7 +34,7 @@ li {
   height:216px;
 }
 
-/* Black */
+/* black keys */
 .black {
   position:absolute;
   top:0px;
