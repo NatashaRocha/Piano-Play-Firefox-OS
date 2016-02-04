@@ -1,32 +1,48 @@
+var tones = [];
+
+function init(){
+    var w = document.getElementsByClassName("key");
+
+    for(var i = 0; i < w.length; i++){
+
+        tones[i] = new Audio();   
+        tones[i].src = "/ogg/"+w[i].id+".ogg";
+
+        w[i].value = i;
+        w[i].played = false;
+
+        if(w[i].id.indexOf("b") == "-1"){
+            addEvent(w[i],'whitepressed');
+        }else{
+            addEvent(w[i],'blackpressed');
+        }
+    }
+}
+
+function addEvent(w, class_name){
+    w.addEventListener("touchstart",function(e){
+        $(this).addClass(class_name);            
+        playTone(this.value);
+        this.played = true;
+        console.log(e);
+    }, true);
+
+    w.addEventListener("touchend",function(){
+        $(this).removeClass(class_name);   
+        stopTone(this.value);
+        this.played = false;         
+    }, true);                
+}
+
 function playTone(key) {
-    var tone = new Audio();   
-    tone.src = "/ogg/"+key+".ogg";
-    tone.load();
-    tone.play();
-    
+    tones[key].play();    
 };
 
+function stopTone(key){
+    tones[key].pause();
+    tones[key].currentTime=0;
+}
+
 $(document).ready(function(){
-    
-    var w = document.getElementsByClassName("white");
-    for(var i=0; i<w.length; i++){  
-        w[i].addEventListener("touchstart",function(){
-            $(this).addClass("whitepressed");            
-            playTone(this.id);
-        }, true);
-        w[i].addEventListener("touchend",function(){
-            $(this).removeClass("whitepressed");            
-        }, true);        
-    };
-    
-    var b = document.getElementsByClassName("black");
-    for(var i=0; i<b.length; i++){
-        b[i].addEventListener("touchstart",function(){
-            $(this).addClass("blackpressed");            
-            playTone(this.id);
-        }, true);
-        b[i].addEventListener("touchend",function(){
-            $(this).removeClass("blackpressed");            
-        }, true);
-    };
+    init();    
 })
