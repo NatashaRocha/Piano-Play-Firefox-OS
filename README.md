@@ -2,14 +2,9 @@
 
 Piano Play for Firefox OS
 
-Autores:  Gabriel Kozlowaski e Natasha Rocha
-
-Contato:  https://www.facebook.com/gkozlowaski
-          https://www.facebook.com/nattycdb
-          https://www.twitter.com/gkozlowaski
-          http://www.twitter.com/nattycdb
+Autores:  [Gabriel Kozlowaski](https://koz.github.io) e [Natasha Rocha](https://natasharocha.github.io)
 
 Email:    gkm.kozlowaski@gmail.com
-          nattycdb@gmail.com
+          natasha@calleia.com.br
 
 Licença:  MPL
